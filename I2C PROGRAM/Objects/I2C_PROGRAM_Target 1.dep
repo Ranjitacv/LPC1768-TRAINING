@@ -1,0 +1,23 @@
+Dependencies for Project 'I2C_PROGRAM', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x559D03D2)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx--pd "__UVISION_VERSION SETA 526"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (.\common\inc\system_LPC17xx.h)(0x5CCAD8A2)()
+F (.\common\inc\LPC17xx.h)(0x5CCC1024)()
+F (.\common\inc\core_cm3.h)(0x5CCAD8A2)()
+F (.\common\src\system_LPC17xx.c)(0x5CD3D4CE)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="526"-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EFE66)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D04DA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D0EC2)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D0EC2)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D0EC2)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x57037F3A)
+F (.\common\src\core_cm3.c)(0x5CCAD8A2)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="526"-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EFE66)
+F (.\i2c_master_transmitter.c)(0x5D0CC27C)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="526"-o .\objects\i2c_master_transmitter.o --omf_browse .\objects\i2c_master_transmitter.crf --depend .\objects\i2c_master_transmitter.d)
+F (.\i2c_master_trans.c)(0x5D120788)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="526"-o .\objects\i2c_master_trans.o --omf_browse .\objects\i2c_master_trans.crf --depend .\objects\i2c_master_trans.d)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D04DA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D0EC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EFE66)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D0EC2)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D0EC2)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x57037F3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EFE66)
